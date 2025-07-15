@@ -15,8 +15,8 @@ module.exports = {
   async headers() {
     const securityHeaders = [
       {
-        key: "##################",
-        value: "##################",
+        key: "X-Debug-Test",
+        value: "TestHeader",
       },
       {
         key: "Content-Security-Policy",
